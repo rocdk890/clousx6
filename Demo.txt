@@ -523,3 +523,6 @@ $写 小依诺/签到/运势/时间 %QQ% %时间dd%$
 
 丢@.*
 ±img=https://xiaobai.klizi.cn/API/ce/diu.php?qq=%AT0%±
+
+天气 .*
+$访问 https://xiaobai.klizi.cn/API/other/tianqi_t.php?&type=text&msg=%参数1%$
