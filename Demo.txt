@@ -1,4 +1,4 @@
-demo
+demo|测试
 1:你好呀
 2:叫我干什么?
 3:今天是美好的一天
@@ -12,7 +12,6 @@ p:%随机数1-4%
 3:再凶我,我就死机给你看
 p:%随机数1-3%
 %%p%%
-
 
 憨批机器人
 1:对不起嘛(◞‸◟ )
@@ -31,6 +30,24 @@ QQ
 时间|报时|现在时间
 现在是: %时间yyyy年MM月dd日HH点mm分ss秒%
 如果尾
+
+开机|开启|运行|启动
+如果:$读 演示/%群号%/运行 0$==1
+返回
+如果尾
+如果:%QQ%==%主人%
+$写 演示/%群号%/运行 m 1$
+±img=http://gchat.qpic.cn/gchatpic_new/0/0-0-71A08F1F6DFFB6EB5EA3687F836695FF/0?term=2±
+开机成功，机器测试
+
+关机|关闭|结束
+如果:$读 演示/%群号%/运行 m 0$==0
+返回
+如果尾
+如果:%QQ%==%主人%
+$写 演示/%群号%/运行 m 0$
+±img=http://gchat.qpic.cn/gchatpic_new/0/0-0-71A08F1F6DFFB6EB5EA3687F836695FF/0?term=2±
+关机成功，机器测试
 
 .*主人.*
 如果:%QQ%==%主人%
@@ -614,6 +631,10 @@ $访问 https://xiaoapi.cn/API/tq.php?n=1&msg=%括号1%$
 ±img=https://s1.ax1x.com/2023/01/05/pSkYVLn.png±
 
 美图
+如果:$读 演示/%群号%/运行 m 0$==0
+关机中请先【联系主人】进行开机...
+返回
+如果尾
 1:±img=/storage/emulated/0/qqimages/88606feebfa65d49066d45a3ce09d316.jpg±
 2:±img=/storage/emulated/0/qqimages/b99a9c552e0b493a98c020d5a1a55322.jpg±
 3:±img=/storage/emulated/0/qqimages/fd60187234777e10f2d56312db39d63b.jpg±
