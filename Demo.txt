@@ -318,6 +318,13 @@ http://statistics.pandadastudio.com/player/giftCodeView
 【探险系统】\r【小游戏系统】\r
 ~~~by rocdk890 ~~~
 
+状态
+机器人已运行%ROM%\r
+后台手机信息\r
+手机厂商HUAWEI\r
+手机型号P40\r
+手机系统版本号10.0\r
+时间:%时间yyyy年MM月dd日HH:mm:ss%
 
 抽奖
 智:$读 演示/%群号%/%QQ%/智商 a 0$
@@ -882,6 +889,14 @@ p:%随机数1-3%
 
 动漫图
 ±img=https://api.ixiaowai.cn/api/api.php±
+
+壁纸|美腿
+如果:$读 演示/%群号%/运行 m 0$==0
+关机中请先【联系主人】进行开机...
+返回
+如果尾
+D:$访问 http://api.yanxi520.cn/api/mttp.php$
+±img=%D%±
 
 舔@.*
 ±img=https://xiaobai.klizi.cn/API/ce/tian.php?qq=%AT0%±
