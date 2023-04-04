@@ -297,6 +297,10 @@ Tell the time on the hour
 现在是晚上十一点,很晚了,该睡觉了~
 返回
 如果尾
+如果:%时间%==24
+$删除文件 演示/%群号%/小游戏/掷骰子次数$
+返回
+如果尾
 
 网址
 输入mc、兑换码地址、mcbbs、我的世界等试试看吧
@@ -323,9 +327,9 @@ http://statistics.pandadastudio.com/player/giftCodeView
 状态
 机器人已运行%ROM%\r
 后台手机信息\r
-手机厂商HUAWEI\r
-手机型号P40\r
-手机系统版本号10.0\r
+手机厂商IPHONE\r
+手机型号13pro\r
+手机系统版本号16.3.1\r
 时间:%时间yyyy年MM月dd日HH:mm:ss%
 
 抽奖
@@ -430,7 +434,7 @@ n;5
 油饼:%油%
 
 运势|今日运势
-a:$读 演示/运势/运势日期/时间 %QQ% [%随机数1-26%]$
+a:$读 演示/运势/运势日期/时间 %QQ% [%随机数1-27%]$
 b:$读 演示/运势/时间 %QQ% 0$
 如果:%b%==%时间dd%
 今日运势已查询,请明日再来.
@@ -896,13 +900,13 @@ $访问 https://xiaoapi.cn/API/tq.php?n=1&msg=%括号1%$
 1:±img=/storage/emulated/0/qqimages/88606feebfa65d49066d45a3ce09d316.jpg±
 2:±img=/storage/emulated/0/qqimages/b99a9c552e0b493a98c020d5a1a55322.jpg±
 3:±img=/storage/emulated/0/qqimages/fd60187234777e10f2d56312db39d63b.jpg±
-p:%随机数1-4.%
+p:%随机数1-4%
 %%p%%
 
 动漫图
 ±img=https://api.ixiaowai.cn/api/api.php±
 
-壁纸|美腿
+美腿
 如果:$读 演示/%群号%/运行 m 0$==0
 关机中请先【联系主人】进行开机...
 返回
