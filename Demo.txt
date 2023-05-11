@@ -920,6 +920,7 @@ $访问 https://xiaoapi.cn/API/tq.php?n=1&msg=%括号1%$
 1.小鲨鱼
 2.美图
 3.动漫图
+4.美女图
 如果尾
 
 小鲨鱼
@@ -936,6 +937,10 @@ M:$访问 https://api.slogra.com/images/meinv$
 动漫图
 D:$访问 https://api.slogra.com/images/dongman$
 ±img=%D%±
+
+美女图
+m:$访问 https://api.slogra.com/images/mm$
+±img=%m%±
 
 舔@.*
 ±img=https://xiaobai.klizi.cn/API/ce/tian.php?qq=%AT0%±
